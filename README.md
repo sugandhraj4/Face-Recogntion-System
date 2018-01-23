@@ -45,7 +45,7 @@ Also, install install OpenCV if not installed already
 
 ## Usage
 
-For running face recognition on live video from your web camera "cv2.VideoCapture(0)",(0) indicates web camera is chosen.
+For running face recognition on a video feed from your web camera  set "cv2.VideoCapture(0)",(0) indicates that the web camera is chosen.
 Note: If you want to choose a specific camera change the index to 1 or 2.
 
 This project has two parts:
