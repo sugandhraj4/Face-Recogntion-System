@@ -24,8 +24,8 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
 ## Installation
 
 ### Requirements
-Python 3.3+ or Python 2.7
-macOS or Linux
+- Python 3.3+ or Python 2.7
+- macOS or Linux
 
 
 #### Installing on Mac or Linux
