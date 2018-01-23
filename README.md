@@ -39,6 +39,7 @@ Then, install the face_recogntion module from pypi using pip3 (or pip2 for Pytho
 ```
 pip install face_recognition
 ```
+Also, install install OpenCV if not installed already
 
 [How to install OpenCV from source on macOS or Ubuntu](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
 
