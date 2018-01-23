@@ -55,13 +55,13 @@ This project has two parts:
 
 ### Process:
 
-1. Calling the train_kNN() script
+#### 1. Calling the train_kNN() script
 
 Note: It is assumed that you have "People_Directory" in the same folder, you can name it something else, considering you also change the train_dir name as well.
 
 It is also important to note that you need to call the train_kNN function just once, after which you may(or may not)comment it out.
 
-2. Face_Recogntion Script
+#### 2. Face_Recogntion Script
 
 This is rest of the script post train_kNN(). This script loads up the learned kNN-classifier model and computes distance metric on each frame. Once the closest distance results are obtained it displays the result as a name of the person along with a bounding box.
 
