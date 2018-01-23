@@ -7,7 +7,7 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
 ## Table of Contents
 
 - Prerequisites
-- Installtaion
+- Installation
 - Usage
 - Licence
 
@@ -21,7 +21,7 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
  - Sklearn
  - Math
 
-## Installtaion 
+## Installation
 
 ### Requirements
 Python 3.3+ or Python 2.7
@@ -40,7 +40,27 @@ Then, install the face_recogntion module from pypi using pip3 (or pip2 for Pytho
 pip install face_recognition
 ```
 
+[How to install OpenCV from source on macOS or Ubuntu](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
+
 ## Usage
+
+For running face recognition on live video from your web camera "cv2.VideoCapture(0)",(0) indicates web camera is chosen.
+Note: If you want to choose a specific camera change the index to 1 or 2.
+
+This project has two parts:
+1. Function - train_kNN
+2. Face_Recogntion Script
+
+### Process:
+
+1. Call the train_kNN() script.
+
+Note: It is assumed that you have "People_Directory" in the same folder, you can name it something else, considering you also change the train_dir name as well.
+It is also important to note that you need to call the train_kNN function just once, after which you may(or may not)comment it out.
+
+2. Face_Recogntion Script :
+
+This script loads up the learned kNN-classifier model and computes distance metric on each frame. Once the closest distance results are obtained it displays the result as a name of the person along with a bounding box.
 
 ## License
 
