@@ -27,11 +27,18 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
 Python 3.3+ or Python 2.7
 macOS or Linux
 
-'''
+
+#### Installing on Mac or Linux
+
+Install dlib if not installed already:
+
+[How to install dlib from source on macOS or Ubuntu](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/)
+
+Then, install the face_recogntion module from pypi using pip3 (or pip2 for Python 2):
+
+```
 pip install face_recognition
-'''
-
-
+```
 
 ## Usage
 
