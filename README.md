@@ -6,11 +6,32 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
 
 ## Table of Contents
 
-- Installation
+- Prerequisites
+- Installtaion
 - Usage
 - Licence
 
-## Installation
+## Prerequisites
+ 
+ Require modules to be imported:
+ 
+ - face_recogntion
+ - OpenCV
+ - Pickle
+ - Sklearn
+ - Math
+
+## Installtaion 
+
+### Requirements
+Python 3.3+ or Python 2.7
+macOS or Linux
+
+'''
+pip install face_recognition
+'''
+
+
 
 ## Usage
 
