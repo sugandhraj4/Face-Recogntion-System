@@ -16,4 +16,4 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE file for details
