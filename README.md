@@ -1,7 +1,7 @@
-#Face Recogntion System
+# Face Recogntion System
 
 ## Description
 
-##Table of Contents
+## Table of Contents
 
 ## Installation
