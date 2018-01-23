@@ -6,7 +6,7 @@ This project showcases a directory based face-recogntion system, which uses K-Ne
 
 ## Table of Contents
 
-- Installation
+* Installation
 - Usage
 - Licence
 
